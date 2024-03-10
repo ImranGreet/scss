@@ -1,0 +1,42 @@
+
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    /* padding: 30px; */
+  }
+
+.heading-primary {
+    color: white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 60px;
+
+    &-main {
+        display: block;
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 35px;
+        animation-name: moveInLeft;
+        animation-duration: 3s;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 3;
+        /* animation-delay: 3s; */
+      }
+      
+      &-sub {
+        display: block;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 17.5px;
+        animation-name: moveInRight;
+        animation-duration: 3s;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+      }
+  }
+  
